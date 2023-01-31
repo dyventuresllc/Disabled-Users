@@ -33,7 +33,7 @@
 //            //Uri restUri = new Uri("https://qe-us-current-sandbox.relativity.one/relativity.rest/api");
 //            Uri restUri = new Uri("https://qe-us.relativity.one/relativity.rest/api");
 //            //Uri restUri = new Uri("https://VM-T041WEB001/Relativity.Rest/API/");
-//            Credentials credentials = new UsernamePasswordCredentials("damienyoung@quinnemanuel.com", "C@Y8=%+XsP]U");
+//            Credentials credentials = new UsernamePasswordCredentials("username", "password");
 //            ServiceFactorySettings settings = new ServiceFactorySettings(restUri, credentials);
 //            ServiceFactory factory = new ServiceFactory(settings);
  
