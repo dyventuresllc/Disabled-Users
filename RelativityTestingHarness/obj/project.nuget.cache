@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "dgSpecHash": "vIss77r6/N+GDqmdAjsOzaZ7tpnmTDOqKnkLhazBClhrNqvuDP1S2aW1LDBG5uXdn6lReio0IKVBN7vfrQR4nQ==",
+  "success": true,
+  "projectFilePath": "D:\\CSharp\\DY\\Relativity\\RelativityTestingHarness\\RelativityTestingHarness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dyoun\\.nuget\\packages\\castle.core\\3.3.0\\castle.core.3.3.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\castle.windsor\\3.3.0\\castle.windsor.3.3.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.applicationinsights\\2.17.0\\microsoft.applicationinsights.2.17.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.2.4\\microsoft.extensions.configuration.binder.2.2.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\2.2.4\\microsoft.extensions.configuration.environmentvariables.2.2.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\nunit3testadapter\\4.3.1\\nunit3testadapter.4.3.1.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\polly\\5.7.0\\polly.5.7.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.agent\\17.0.4\\relativity.agent.17.0.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.api\\17.0.4\\relativity.api.17.0.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.dataexchange.client.sdk\\1.17.2\\relativity.dataexchange.client.sdk.1.17.2.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.identity.sdk\\2.3.4\\relativity.identity.sdk.2.3.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.kepler\\2.14.4\\relativity.kepler.2.14.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.kepler.client.sdk\\2.14.4\\relativity.kepler.client.sdk.2.14.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.logging\\2019.5.1\\relativity.logging.2019.5.1.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.objectmanager\\12.1.171.20\\relativity.objectmanager.12.1.171.20.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.objectmanager.sdk\\1.1.0\\relativity.objectmanager.sdk.1.1.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.outsidein\\2021.8.0\\relativity.outsidein.2021.8.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.shared.sdk\\1.0.3\\relativity.shared.sdk.1.0.3.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.telemetry.datacontracts.shared\\3003.1.0\\relativity.telemetry.datacontracts.shared.3003.1.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.telemetry.services.interface\\3003.0.2\\relativity.telemetry.services.interface.3003.0.2.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.testing.framework\\7.2.1\\relativity.testing.framework.7.2.1.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.testing.framework.api\\6.1.8\\relativity.testing.framework.api.6.1.8.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\relativity.transfer.client\\7.4.7\\relativity.transfer.client.7.4.7.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\semanticversioning\\1.2.2\\semanticversioning.1.2.2.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\ssh.net\\2016.0.0\\ssh.net.2016.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.1\\system.security.cryptography.algorithms.4.3.1.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\dyoun\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Relativity.Identity.SDK 2.3.4 depends on Relativity.Kepler (>= 2.0.0 && < 3.0.0) but Relativity.Kepler 2.0.0 was not found. An approximate best match of Relativity.Kepler 2.3.2 was resolved.",
+      "libraryId": "Relativity.Kepler",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Relativity.ObjectManager.SDK 1.1.0 depends on Relativity.Kepler (>= 2.0.0 && < 3.0.0) but Relativity.Kepler 2.0.0 was not found. An approximate best match of Relativity.Kepler 2.3.2 was resolved.",
+      "libraryId": "Relativity.Kepler",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Relativity.Identity.SDK 2.3.4 depends on Relativity.Shared.SDK (>= 0.0.0 && < 2.0.0) but Relativity.Shared.SDK 0.0.0 was not found. An approximate best match of Relativity.Shared.SDK 1.0.3 was resolved.",
+      "libraryId": "Relativity.Shared.SDK",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Relativity.ObjectManager.SDK 1.1.0 depends on Relativity.Shared.SDK (>= 0.0.0 && < 2.0.0) but Relativity.Shared.SDK 0.0.0 was not found. An approximate best match of Relativity.Shared.SDK 1.0.3 was resolved.",
+      "libraryId": "Relativity.Shared.SDK",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SQL\UsersNeverLoggedIn.sql" />
+    <None Remove="SQL\UsersOverX.sql" />
+    <None Remove="SQL\UsersWithNoGroups.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bin\Debug\net472\appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Relativity.Agent" Version="17.0.4" />
+    <PackageReference Include="Relativity.Identity.SDK" Version="2.3.4" />
+    <PackageReference Include="Relativity.ObjectManager.SDK" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SQL\UsersNeverLoggedIn.sql" />
+    <Resource Include="SQL\UsersOverX.sql" />
+    <Resource Include="SQL\UsersWithNoGroups.sql" />
+  </ItemGroup>
+
+</Project>

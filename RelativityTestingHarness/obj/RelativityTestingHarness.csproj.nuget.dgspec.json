@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CSharp\\DY\\Relativity\\RelativityTestingHarness\\RelativityTestingHarness.csproj": {}
+  },
+  "projects": {
+    "D:\\CSharp\\DY\\Relativity\\DisableUsers\\DisableUsers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\DY\\Relativity\\DisableUsers\\DisableUsers.csproj",
+        "projectName": "DisableUsers",
+        "projectPath": "D:\\CSharp\\DY\\Relativity\\DisableUsers\\DisableUsers.csproj",
+        "packagesPath": "C:\\Users\\dyoun\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\DY\\Relativity\\DisableUsers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dyoun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Relativity.Agent": {
+              "target": "Package",
+              "version": "[17.0.4, )"
+            },
+            "Relativity.Identity.SDK": {
+              "target": "Package",
+              "version": "[2.3.4, )"
+            },
+            "Relativity.ObjectManager.SDK": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\DY\\Relativity\\RelativityTestingHarness\\RelativityTestingHarness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\DY\\Relativity\\RelativityTestingHarness\\RelativityTestingHarness.csproj",
+        "projectName": "RelativityTestingHarness",
+        "projectPath": "D:\\CSharp\\DY\\Relativity\\RelativityTestingHarness\\RelativityTestingHarness.csproj",
+        "packagesPath": "C:\\Users\\dyoun\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\DY\\Relativity\\RelativityTestingHarness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dyoun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\CSharp\\DY\\Relativity\\DisableUsers\\DisableUsers.csproj": {
+                "projectPath": "D:\\CSharp\\DY\\Relativity\\DisableUsers\\DisableUsers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Relativity.Agent": {
+              "target": "Package",
+              "version": "[17.0.4, )"
+            },
+            "Relativity.Api": {
+              "target": "Package",
+              "version": "[17.0.4, )"
+            },
+            "Relativity.Testing.Framework.Api": {
+              "target": "Package",
+              "version": "[6.1.8, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
