@@ -80,5 +80,22 @@ namespace DisableUsers
                 return usersNoGroups.ToDataTable();
             }
         }
+
+        public void T()
+        {
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var connString = config.GetConnectionString("Relativity-EU");
+
+            IDbConnection conn = new SqlConnection(connString);
+            conn.ChangeDatabase("_DB1");
+
+
+        }
+
+
     }
 }

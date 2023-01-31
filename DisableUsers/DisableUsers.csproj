@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="SQL\INSERT - qe.Users.sql" />
     <None Remove="SQL\UsersNeverLoggedIn.sql" />
     <None Remove="SQL\UsersOverX.sql" />
     <None Remove="SQL\UsersWithNoGroups.sql" />
@@ -26,6 +27,7 @@
   <ItemGroup>
     <Resource Include="SQL\UsersNeverLoggedIn.sql" />
     <Resource Include="SQL\UsersOverX.sql" />
+    <Resource Include="SQL\INSERT - qe.Users.sql" />
     <Resource Include="SQL\UsersWithNoGroups.sql" />
   </ItemGroup>
 
