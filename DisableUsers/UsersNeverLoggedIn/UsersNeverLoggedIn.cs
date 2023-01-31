@@ -12,7 +12,6 @@ namespace DisableUsers
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public DateTime CreatedOn { get; set; }
-        public int DaysSinceAccountCreated { get; set; }
+        public int NumDaySinceAccountCreated { get; set; }
     }
-
 }

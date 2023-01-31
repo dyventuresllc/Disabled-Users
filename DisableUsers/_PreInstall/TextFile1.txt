@@ -1,0 +1,14 @@
+﻿USE _DB1
+
+CREATE SCHEMA qe
+GO
+
+CREATE TABLE qe.Users 
+(
+UserArtifactID INT PRIMARY KEY,
+DateLastActivity DATETIME,
+DateCreated DATETIME,
+FirstNotificatonDateSent DATETIME,
+SecondNotificationDateSent DATETIME
+)
+GO

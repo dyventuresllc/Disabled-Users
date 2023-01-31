@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="bin\Debug\net472\appsettings.json" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <PackageReference Include="Relativity.Agent" Version="17.0.4" />
@@ -29,6 +25,10 @@
     <Resource Include="SQL\UsersOverX.sql" />
     <Resource Include="SQL\INSERT - qe.Users.sql" />
     <Resource Include="SQL\UsersWithNoGroups.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net472\" />
   </ItemGroup>
 
 </Project>

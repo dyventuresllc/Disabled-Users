@@ -4,7 +4,7 @@ namespace DisableUsers
 {
     public interface IUsersNoGroup
     {
-       IEnumerable<UsersNoGroups> SelectAllUsersWithNoGroups();
+        IEnumerable<UsersNoGroups> SelectAllUsersWithNoGroups();
     }
 
     public interface IUserOver
@@ -16,5 +16,15 @@ namespace DisableUsers
     {
         IEnumerable<UsersNeverLoggedIn> SelectAllUsersNeverLoggedIn(int numOfDays);
     }
-    
+
+    public interface IQueue 
+    {
+        void QueueInsertRecord(QueueTable record);
+        
+        void QueueUpdateFirstNotifacation(QueueTable record);
+
+        void QueueUpdateSecondNotifaction(QueueTable record);
+
+        void QueueDeleteRecord(QueueTable record);
+    }
 }

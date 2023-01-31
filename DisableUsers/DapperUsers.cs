@@ -53,4 +53,36 @@ namespace DisableUsers
             return _conn.Query<UsersNeverLoggedIn>(script,param);
         }
     }
+
+    public class DapperQueueTable : IQueue 
+    {
+        private readonly IDbConnection _conn;
+
+        public DapperQueueTable(IDbConnection conn)
+        {
+            _conn = conn;
+        }
+
+        public void QueueInsertRecord(QueueTable record)
+        {
+            var param = new { UserArtifactID = record.UserArtifactID, UserDOL = record.DateLastActivity, UserDC = record.DateCreated };
+            string script = File.ReadAllText(@"D:\CSharp\DY\Relativity\DisableUsers\SQL\INSERT - qe.Users.sql");
+            _conn.Execute(script,param);
+        }
+
+        public void QueueDeleteRecord(QueueTable record)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void QueueUpdateFirstNotifacation(QueueTable record)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void QueueUpdateSecondNotifaction(QueueTable record)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }
